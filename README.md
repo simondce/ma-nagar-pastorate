@@ -6,13 +6,15 @@ The header’s **EN / தமிழ்** switch remembers the selected language. 
 
 ## Review online
 
-The prototype is prepared for [GitHub Pages](https://simondce.github.io/ma-nagar-pastorate/). The `Publish church prototype` workflow tests, builds, and publishes pushes to `main`. Repository Settings → Pages must use **GitHub Actions**. Relative asset paths and hash navigation work under the repository URL without a custom server.
+The prototype is published on [GitHub Pages](https://simondce.github.io/ma-nagar-pastorate/). Source code is on `main`; the locally tested production bundle is on `gh-pages`. Repository Settings → Pages uses **Deploy from a branch → gh-pages → / (root)**. Relative asset paths and hash navigation work under the repository URL without a custom server.
+
+The initial custom Actions deployment could not start because GitHub reported an account billing lock. Branch-based Pages publishing succeeded. Updates currently require running the tests and build locally, then publishing the contents of `dist` to `gh-pages`; pushing source changes to `main` alone does not update the site. An optional manual `Publish church prototype` workflow is retained for future use after resolving the Actions account restriction and switching Pages to **GitHub Actions**.
 
 Public visitors can read notices, view church information and directions, register for approval, make simulated contributions, and submit sample prayer requests. The public interface does not show the member directory, pastoral inbox, or contributor ledger. **Staff login → Enter demo workspace** demonstrates the management area. It is deliberately labeled as a demo: there is no password or production authentication.
 
 ## Run locally
 
-Requires Node.js 20.19+ (or 22.12+) and pnpm.
+Use Node.js 24 and pnpm 11.19.0, matching the deployment workflow.
 
 ```sh
 pnpm install
