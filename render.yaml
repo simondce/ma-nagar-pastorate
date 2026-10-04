@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: ma-nagar-whatsapp-demo
+    runtime: node
+    plan: free
+    buildCommand: node --version
+    startCommand: node server/index.js
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: "24"
+      - key: HOST
+        value: 0.0.0.0
+      - key: ALLOWED_ORIGINS
+        value: https://simondce.github.io
+      - key: WHATSAPP_DEMO_KEY
+        generateValue: true
+      - key: WHATSAPP_ACCESS_TOKEN
+        sync: false
+      - key: WHATSAPP_PHONE_NUMBER_ID
+        sync: false
+      - key: WHATSAPP_GRAPH_VERSION
+        sync: false
+      - key: WHATSAPP_TEST_RECIPIENT
+        sync: false

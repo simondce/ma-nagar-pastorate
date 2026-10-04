@@ -474,7 +474,7 @@ export default function PublicPortal({ page }) {
             </a>
           </span>
         </div>
-        <span>Sample data · No live payments or messages</span>
+        <span>Sample data · No live payments</span>
         <button onClick={() => open("login")}>
           Staff login
           <ArrowUpRight size={14} />

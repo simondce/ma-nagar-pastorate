@@ -25,6 +25,8 @@ Open http://127.0.0.1:5173. `pnpm build` creates the production bundle in `dist`
 
 ## Explore the prototype
 
+**WhatsApp backend demo:** [Follow the Meta setup guide](WHATSAPP_SETUP.md) to configure the server-side test sender. **Communications → Meta WhatsApp test** sends to one verified test recipient after backend setup. The Meta token stays on the backend; audience campaigns and SMS remain simulated.
+
 - **Overview:** church scope, community totals, approvals, celebrations, and notices.
 - **Members:** searchable and filterable directory, CSV export, profiles, editing, self-registration, approvals, and archival with a departure reason. One primary church and optional secondary churches per person. Existing Sandhai numbers are checked within each church; issuing a new number requires explicit confirmation. The combined church prefix and number identify a member across the pastorate.
 - **Churches:** diocese → pastorate → branch hierarchy, pastor assignments, and church-specific member views.
@@ -39,7 +41,7 @@ Open http://127.0.0.1:5173. `pnpm build` creates the production bundle in `dist`
 
 Changes are saved to this browser’s local storage. This is a single-user demonstration, not a production database. The directory contains fictional data. Use sample information only.
 
-No WhatsApp/SMS provider, payment gateway, authentication service, or background scheduler is connected. No money is charged and no external messages are sent. The prayer confidentiality switch and described roles are UI demonstrations, not security boundaries. Work anniversaries are not modeled because the brief does not specify an employment/service start date; birthdays and wedding anniversaries are implemented.
+The optional Meta WhatsApp test backend can send real messages after configuration; its separate demo key protects that endpoint. The sample audience composer and SMS remain simulations. No payment gateway, production authentication service, or background scheduler is connected. No money is charged by the prototype. The prayer confidentiality switch and described roles are UI demonstrations, not security boundaries. Work anniversaries are not modeled because the brief does not specify an employment/service start date; birthdays and wedding anniversaries are implemented.
 
 A production release needs authenticated accounts, server-enforced role and church scopes, a transactional database with church-scoped membership constraints, a reviewed registration workflow, consent auditing, payment verification and receipts, authenticated private prayer access, messaging provider integration, and an Asia/Kolkata scheduler for wishes. It also needs backups, audit logs, and server-side validation. Don’t deploy this demo as a live member registry.
 

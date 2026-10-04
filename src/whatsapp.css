@@ -1,0 +1,83 @@
+.whatsapp-connect-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 22px;
+  margin-bottom: 24px;
+  border-left: 4px solid #285b42;
+}
+.whatsapp-connect-card h2 {
+  margin: 0 0 6px;
+  font-size: 17px;
+}
+.whatsapp-connect-card p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #526354;
+}
+.whatsapp-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.whatsapp-stack > p,
+.whatsapp-stack > small {
+  margin: 0;
+  line-height: 1.8;
+  color: #526354;
+  font-size: 13px;
+}
+.whatsapp-recipient {
+  display: flex;
+  gap: 12px;
+  padding: 18px;
+  background: #eaf1e5;
+  border-radius: 12px;
+  color: #214d39;
+}
+.whatsapp-recipient > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.whatsapp-recipient span {
+  font-size: 12px;
+}
+.whatsapp-result {
+  background: #eaf1e5;
+  padding: 18px;
+  border-radius: 12px;
+  line-height: 1.7;
+}
+.whatsapp-result p {
+  font-size: 13px;
+}
+.whatsapp-result code {
+  display: block;
+  overflow-wrap: anywhere;
+  font-size: 11px;
+}
+.whatsapp-demo .form-error {
+  margin-top: 18px;
+}
+.whatsapp-demo .text-button {
+  align-self: flex-start;
+}
+@media (max-width: 650px) {
+  .whatsapp-connect-card {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 18px;
+  }
+  .whatsapp-stack .button {
+    min-height: 46px;
+    white-space: normal;
+  }
+  .whatsapp-demo input,
+  .whatsapp-demo textarea,
+  .whatsapp-demo select {
+    font-size: 16px;
+  }
+}

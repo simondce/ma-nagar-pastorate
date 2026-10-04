@@ -575,6 +575,21 @@ export function Communications() {
         </div>
         <Badge tone="white">Demo messaging</Badge>
       </div>
+      {can("message") && (
+        <section className="card whatsapp-connect-card">
+          <div>
+            <h2>Try the Meta connection</h2>
+            <p>
+              Send a real WhatsApp test to the recipient configured on your
+              backend.
+            </p>
+          </div>
+          <Button onClick={() => open("whatsapp-test")}>
+            <MessageCircle size={17} />
+            Meta WhatsApp test
+          </Button>
+        </section>
+      )}
       <div className="quick-template-grid">
         {[
           {
@@ -715,8 +730,8 @@ export function Communications() {
       </section>
       <p className="page-footnote">
         <CircleHelp size={14} />
-        Messages are simulated in this prototype. No WhatsApp or SMS messages
-        are sent.
+        Audience campaigns and SMS are simulated. The separate Meta test sends a
+        real message to your configured test recipient.
       </p>
     </div>
   );

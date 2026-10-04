@@ -1,4 +1,78 @@
 export const tamil = {
+  "Sample data · No live payments":
+    "மாதிரித் தரவு · உண்மையான பணப் பரிவர்த்தனை இல்லை",
+  "Audience sending and schedules are simulated. Use Test via Meta to send a real message to your configured test recipient.":
+    "குழுச் செய்திகளும் திட்டமிட்ட அனுப்புதலும் மாதிரியானவை. அமைக்கப்பட்ட சோதனைப் பெறுநருக்கு உண்மையான செய்தி அனுப்ப Meta மூலம் சோதிக்க என்பதைப் பயன்படுத்தவும்.",
+  "This prototype uses sample member data saved in this browser. Audience campaigns, scheduled wishes, payments, and account permissions are demonstrations. The separate Meta test can send real WhatsApp messages after backend setup.":
+    "இது உலாவியில் சேமிக்கப்படும் மாதிரி உறுப்பினர் தரவைப் பயன்படுத்துகிறது. குழுச் செய்திகள், திட்டமிட்ட வாழ்த்துகள், பணப் பரிவர்த்தனை மற்றும் கணக்கு அனுமதிகள் மாதிரியானவை. சேவையகத்தை அமைத்த பிறகு தனியான Meta சோதனையில் உண்மையான WhatsApp செய்திகளை அனுப்பலாம்.",
+  "Meta WhatsApp test": "Meta WhatsApp சோதனை",
+  "Test via Meta": "Meta மூலம் சோதிக்க",
+  "Try the Meta connection": "Meta இணைப்பைச் சோதிக்கவும்",
+  "Send a real WhatsApp test to the recipient configured on your backend.":
+    "உங்கள் சேவையகத்தில் அமைக்கப்பட்ட பெறுநருக்கு உண்மையான WhatsApp சோதனைச் செய்தியை அனுப்பவும்.",
+  "Audience campaigns and SMS are simulated. The separate Meta test sends a real message to your configured test recipient.":
+    "குழுச் செய்திகள் மற்றும் SMS மாதிரியாக மட்டுமே செயல்படும். தனியான Meta சோதனை, அமைக்கப்பட்ட சோதனைப் பெறுநருக்கு உண்மையான செய்தியை அனுப்பும்.",
+  "Send a real test message through your backend.":
+    "உங்கள் சேவையகம் மூலம் உண்மையான சோதனைச் செய்தியை அனுப்பவும்.",
+  "The Meta access token stays on your server. Use the separate backend key here.":
+    "Meta அணுகல் டோக்கன் சேவையகத்தில் மட்டுமே இருக்கும். இங்கு தனியான சேவையகச் சாவியைப் பயன்படுத்தவும்.",
+  "Backend URL": "சேவையக இணைய முகவரி",
+  "Backend demo key": "சேவையகச் சோதனைச் சாவி",
+  "This key is cleared when you close this dialog.":
+    "இந்தச் சாளரத்தை மூடும்போது சாவி நீக்கப்படும்.",
+  "Checking backend…": "சேவையகத்தைச் சோதிக்கிறது…",
+  "Check backend": "சேவையகத்தைச் சோதிக்க",
+  "Meta setup instructions": "Meta அமைப்பு வழிமுறைகள்",
+  "Backend ready": "சேவையகம் தயார்",
+  "Test recipient": "சோதனைப் பெறுநர்",
+  "Meta checks the credentials when you send. The sample member directory is never used for real sends.":
+    "செய்தி அனுப்பும்போது Meta அணுகல் விவரங்களைச் சரிபார்க்கும். மாதிரி உறுப்பினர் பட்டியலுக்கு உண்மையான செய்திகள் அனுப்பப்படாது.",
+  "Test message type": "சோதனைச் செய்தி வகை",
+  "Meta starter template (hello_world)": "Meta தொடக்கச் செய்தி (hello_world)",
+  "Custom message": "உங்கள் சொந்தச் செய்தி",
+  "Send Meta’s English starter template to begin the test conversation.":
+    "சோதனை உரையாடலைத் தொடங்க Meta-வின் ஆங்கில தொடக்கச் செய்தியை அனுப்பவும்.",
+  "Test message": "சோதனைச் செய்தி",
+  "For custom text, the recipient must have messaged your WhatsApp number within the last 24 hours. Tamil text is supported.":
+    "சொந்தச் செய்தியை அனுப்ப, கடந்த 24 மணி நேரத்தில் பெறுநர் உங்கள் WhatsApp எண்ணுக்குச் செய்தி அனுப்பியிருக்க வேண்டும். தமிழிலும் எழுதலாம்.",
+  "Accepted by Meta": "Meta ஏற்றுக்கொண்டது",
+  "Check the recipient’s WhatsApp. Acceptance does not confirm delivery.":
+    "பெறுநரின் WhatsApp-ஐச் சரிபார்க்கவும். Meta ஏற்றுக்கொண்டது மட்டும் செய்தி சென்றடைந்ததை உறுதிப்படுத்தாது.",
+  "Sending via Meta…": "Meta மூலம் அனுப்புகிறது…",
+  "Check same request again": "இதே கோரிக்கையை மீண்டும் சரிபார்க்க",
+  "Send test via Meta": "Meta மூலம் சோதனை அனுப்ப",
+  "Prepare another test": "மற்றொரு சோதனையைத் தயாரிக்க",
+  "Disconnect backend": "சேவையக இணைப்பைத் துண்டிக்க",
+  "The backend key is incorrect, or has not been configured.":
+    "சேவையகச் சாவி தவறாக உள்ளது அல்லது அமைக்கப்படவில்லை.",
+  "Add the Meta credentials and test recipient to the server settings first.":
+    "முதலில் சேவையக அமைப்புகளில் Meta அணுகல் விவரங்களையும் சோதனைப் பெறுநரையும் சேர்க்கவும்.",
+  "Allow this website address in the backend settings.":
+    "சேவையக அமைப்புகளில் இந்த இணைய முகவரியை அனுமதிக்கவும்.",
+  "Enter a message of up to 4,096 characters.":
+    "4,096 எழுத்துகளுக்கு மிகாமல் செய்தியை உள்ளிடவும்.",
+  "The Meta token is invalid or expired. Replace it in the server settings.":
+    "Meta டோக்கன் தவறானது அல்லது காலாவதியானது. சேவையக அமைப்புகளில் அதை மாற்றவும்.",
+  "Verify this recipient in Meta’s WhatsApp API Setup first.":
+    "முதலில் Meta WhatsApp API அமைப்பில் இந்தப் பெறுநரைச் சரிபார்க்கவும்.",
+  "Ask the test recipient to reply to the WhatsApp number, then try custom text again.":
+    "சோதனைப் பெறுநரை WhatsApp எண்ணுக்குப் பதிலளிக்கச் சொல்லவும். பின்னர் உங்கள் சொந்தச் செய்தியை மீண்டும் முயலவும்.",
+  "The hello_world template is unavailable for this sender. Use Meta’s test number.":
+    "இந்த அனுப்புநருக்கு hello_world செய்தி கிடைக்கவில்லை. Meta சோதனை எண்ணைப் பயன்படுத்தவும்.",
+  "Meta rejected this message. Check the sender, token permissions, and verified recipient.":
+    "Meta இந்தச் செய்தியை நிராகரித்தது. அனுப்புநர், டோக்கன் அனுமதிகள் மற்றும் பெறுநரைச் சரிபார்க்கவும்.",
+  "The demo allows five requests per minute. Please wait before trying again.":
+    "நிமிடத்திற்கு ஐந்து கோரிக்கைகள் மட்டுமே அனுமதிக்கப்படும். சிறிது நேரம் கழித்து முயலவும்.",
+  "Prepare a new test before changing a request that was already submitted.":
+    "ஏற்கெனவே சமர்ப்பித்த கோரிக்கையை மாற்ற புதிய சோதனையைத் தயாரிக்கவும்.",
+  "The send result is unknown. Check the recipient’s WhatsApp before preparing another test; it may already have arrived.":
+    "அனுப்பிய முடிவு தெரியவில்லை. மற்றொரு சோதனைக்கு முன் பெறுநரின் WhatsApp-ஐப் பார்க்கவும்; செய்தி ஏற்கெனவே சென்றிருக்கலாம்.",
+  "Cannot reach the backend. Check its URL and that the server is running.":
+    "சேவையகத்தைத் தொடர்புகொள்ள முடியவில்லை. இணைய முகவரியையும் சேவையகம் இயங்குவதையும் சரிபார்க்கவும்.",
+  "Use an HTTPS backend URL. Local HTTP works only with the local prototype.":
+    "HTTPS சேவையக முகவரியைப் பயன்படுத்தவும். உள்ளூர் HTTP, உள்ளூர் மாதிரித் தளத்தில் மட்டுமே செயல்படும்.",
+  "Enter the backend’s base URL without a path or credentials.":
+    "பாதை அல்லது அணுகல் விவரங்கள் இல்லாமல் சேவையகத்தின் அடிப்படை இணைய முகவரியை உள்ளிடவும்.",
   "COME AS YOU ARE": "நீங்கள் இருப்பது போலவே வாருங்கள்",
   "There’s a place for you here.": "இங்கே உங்களுக்கும் இடமுண்டு.",
   "Visit St. John’s Church, MA Nagar. We look forward to welcoming you.":

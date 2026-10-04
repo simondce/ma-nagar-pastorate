@@ -150,7 +150,9 @@ export default function App() {
         return;
       if (
         session?.role === "Committee member" &&
-        ["approve", "message", "notice", "campaign"].includes(type)
+        ["approve", "message", "whatsapp-test", "notice", "campaign"].includes(
+          type,
+        )
       )
         return;
       if (

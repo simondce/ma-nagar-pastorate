@@ -52,6 +52,7 @@ import {
 } from "./components.jsx";
 import { StaffLogin } from "./PublicPortal.jsx";
 import { CHURCH_LOCATION } from "./church-location.js";
+import WhatsAppDemo from "./WhatsAppDemo.jsx";
 
 const today = () => new Date().toISOString().slice(0, 10);
 const roles = [
@@ -640,7 +641,7 @@ function ApproveMember({ dialog }) {
 }
 
 function ComposeMessage({ dialog }) {
-  const { data, church, update, close, activity } = useParish();
+  const { data, church, update, close, activity, open } = useParish();
   const draft = dialog.draft;
   const ids =
     dialog.memberIds ||
@@ -921,8 +922,8 @@ function ComposeMessage({ dialog }) {
             </Field>
           )}
           <p className="demo-disclaimer">
-            Prototype preview only. No messages are sent, and saved schedules do
-            not run automatically.
+            Audience sending and schedules are simulated. Use Test via Meta to
+            send a real message to your configured test recipient.
           </p>
           <ErrorText error={error} />
         </div>
@@ -930,6 +931,15 @@ function ComposeMessage({ dialog }) {
           <Button type="button" variant="secondary" onClick={() => save(true)}>
             Save draft
           </Button>
+          {channel === "whatsapp" && schedule === "now" && (
+            <Button
+              type="button"
+              variant="secondary"
+              onClick={() => open("whatsapp-test", { body })}
+            >
+              Test via Meta
+            </Button>
+          )}
           <Button type="submit" disabled={!recipients.length}>
             <Send size={15} />
             {schedule === "later" ? "Save demo schedule" : "Send demo message"}
@@ -1490,6 +1500,8 @@ export default function Dialogs({ dialog }) {
   if (dialog.type === "member-detail") return <MemberDetail dialog={dialog} />;
   if (dialog.type === "approve") return <ApproveMember dialog={dialog} />;
   if (dialog.type === "message") return <ComposeMessage dialog={dialog} />;
+  if (dialog.type === "whatsapp-test" && can("message"))
+    return <WhatsAppDemo initialBody={dialog.body} />;
   if (dialog.type === "notice") return <AnnouncementForm />;
   if (["donation", "pledge"].includes(dialog.type))
     return <DonationForm dialog={dialog} />;
@@ -1831,9 +1843,10 @@ export default function Dialogs({ dialog }) {
           </div>
         ))}
         <div className="prototype-note">
-          This prototype uses fictional people and churches. Changes are saved
-          in this browser. Messaging, scheduled wishes, payments, and account
-          permissions are demonstrations that need production integrations.
+          This prototype uses sample member data saved in this browser. Audience
+          campaigns, scheduled wishes, payments, and account permissions are
+          demonstrations. The separate Meta test can send real WhatsApp messages
+          after backend setup.
         </div>
       </div>
       <Footer>
