@@ -1,0 +1,1957 @@
+.language-toggle {
+  display: inline-flex;
+  padding: 3px;
+  background: #f4f6f0;
+  border: 1px solid #e2e7db;
+  border-radius: 7px;
+  gap: 2px;
+  flex-shrink: 0;
+}
+.language-toggle button {
+  min-width: 30px;
+  height: 28px;
+  padding: 0 7px;
+  font-size: 10px;
+  color: #798371;
+  border-radius: 4px;
+  font-weight: 500;
+}
+.language-toggle button.selected {
+  background: #fff;
+  color: #285b49;
+  box-shadow: 0 1px 4px #31412410;
+}
+.language-toggle button[lang="ta"] {
+  font-family: "Noto Sans Tamil", sans-serif;
+  font-size: 10px;
+  min-width: 43px;
+}
+.public-site {
+  background: #fbfcf9;
+  min-height: 100vh;
+  color: #2d4938;
+}
+.public-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 23px 42px;
+  border-bottom: 1px solid #e8ece2;
+  background: #fbfcf9;
+}
+.church-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+.church-brand img {
+  width: 49px;
+  height: 49px;
+}
+.church-brand strong {
+  font-family: "Manrope", sans-serif;
+  display: block;
+  font-size: 17px;
+  letter-spacing: -0.6px;
+  font-weight: 750;
+}
+.church-brand small {
+  display: block;
+  margin-top: 6px;
+  font-size: 8px;
+  letter-spacing: 1.65px;
+  color: #727d67;
+}
+.public-desktop-nav {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.public-desktop-nav a {
+  font-size: 12px;
+  color: #6f7d66;
+  position: relative;
+  padding: 10px 0;
+  white-space: nowrap;
+}
+.public-desktop-nav a.active {
+  color: #2e6647;
+  font-weight: 600;
+}
+.public-desktop-nav a.active:after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: #a7b98e;
+  border-radius: 50%;
+  bottom: 0;
+  left: 50%;
+}
+.public-header-actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.staff-login-button {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  color: #5c7651;
+  white-space: nowrap;
+  padding: 9px 0;
+}
+.public-menu-toggle {
+  display: none;
+}
+.public-mobile-nav {
+  display: none;
+}
+.public-main {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 42px 40px;
+}
+.public-hero {
+  display: grid;
+  grid-template-columns: 1.22fr 1fr;
+  gap: 45px;
+  align-items: center;
+  padding: 65px 0 54px;
+}
+.public-eyebrow {
+  font-size: 9px;
+  letter-spacing: 1.7px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #727e60;
+  margin-bottom: 22px;
+  font-weight: 500;
+}
+.public-eyebrow > span {
+  display: block;
+  width: 5px;
+  height: 5px;
+  background: #92a47b;
+  border-radius: 50%;
+}
+.public-hero h1 {
+  font-size: 43px;
+  letter-spacing: -1.8px;
+  font-weight: 650;
+  line-height: 1.34;
+  color: #304f3c;
+}
+.public-hero h1 em {
+  font-style: normal;
+  color: #67805c;
+}
+.public-hero-copy > p {
+  font-size: 13px;
+  line-height: 1.95;
+  color: #6e7f62;
+  max-width: 470px;
+  margin-top: 23px;
+}
+.public-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 29px;
+}
+.public-hero-actions .button {
+  font-size: 12px;
+  padding: 14px 17px;
+  min-height: 46px;
+}
+.public-no-login {
+  font-size: 10px;
+  color: #737e63;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 17px;
+}
+.public-hero-art {
+  background: #eaf0e2;
+  border: 1px solid #e2e9d7;
+  border-radius: 150px 150px 12px 12px;
+  min-height: 390px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 24px;
+}
+.public-hero-art > .church-art {
+  width: 97%;
+  height: auto;
+  position: relative;
+  margin-top: 70px;
+}
+.hero-art-label {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+.hero-art-label img {
+  width: 44px;
+  height: 44px;
+  box-shadow: 0 4px 15px #4567380b;
+  border-radius: 50%;
+}
+.hero-art-label > span {
+  font-size: 6px;
+  letter-spacing: 1.3px;
+  color: #757e68;
+}
+.public-art-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  width: 100%;
+  position: relative;
+  margin-top: 7px;
+}
+.public-art-caption > span {
+  width: 30px;
+  height: 1px;
+  background: #c3ceb6;
+}
+.public-art-caption p {
+  font-size: 10px;
+  color: #6b815a;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+}
+.public-welcome-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  border-top: 1px solid #e6ecdf;
+  padding: 36px 0 25px;
+}
+.public-welcome-intro h2,
+.public-section-heading h2 {
+  font-size: 23px;
+  font-weight: 650;
+  letter-spacing: -0.7px;
+  line-height: 1.5;
+}
+.public-welcome-intro > p {
+  font-size: 12px;
+  color: #727f63;
+  line-height: 1.9;
+  max-width: 380px;
+}
+.public-action-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 21px;
+}
+.public-action-card {
+  border: 1px solid #e3e9dc;
+  background: #f0f5e9;
+  border-radius: 10px;
+  position: relative;
+  text-align: left;
+  padding: 25px;
+}
+.public-action-card.peach {
+  background: #faf4e8;
+  border-color: #f0e6d5;
+}
+.public-action-card.lavender {
+  background: #f4f0f7;
+  border-color: #eae3ee;
+}
+.public-action-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px #31432808;
+}
+.public-action-icon {
+  display: grid;
+  place-items: center;
+  width: 43px;
+  height: 43px;
+  background: #ffffff7d;
+  border: 1px solid #ffffff9e;
+  border-radius: 11px;
+  color: #6b7f5b;
+  margin-bottom: 22px;
+}
+.peach .public-action-icon {
+  color: #897859;
+}
+.lavender .public-action-icon {
+  color: #857690;
+}
+.public-action-arrow {
+  position: absolute;
+  top: 24px;
+  right: 23px;
+  color: #767e69;
+}
+.public-action-card h3 {
+  font-size: 16px;
+  font-weight: 650;
+  letter-spacing: -0.3px;
+}
+.public-action-card p {
+  font-size: 11px;
+  line-height: 1.85;
+  color: #728066;
+  margin-top: 9px;
+  max-width: 270px;
+}
+.public-church-section {
+  margin-top: 51px;
+}
+.public-section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+  margin-bottom: 25px;
+}
+.public-section-heading h2 {
+  max-width: 700px;
+  font-size: 22px;
+}
+.public-section-heading .text-button {
+  font-size: 11px;
+}
+.public-church-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+.public-church-card {
+  position: relative;
+  padding: 24px 20px;
+  background: #fff;
+  border: 1px solid #e6ebdf;
+  border-radius: 9px;
+}
+.public-church-card .church-table-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 24px;
+}
+.public-church-code {
+  position: absolute;
+  top: 28px;
+  right: 22px;
+  font-size: 9px;
+  letter-spacing: 1px;
+  color: #767d6e;
+  font-family: "Manrope", sans-serif;
+}
+.public-church-card h3 {
+  font-size: 14px;
+  line-height: 1.65;
+  min-height: 46px;
+  letter-spacing: -0.25px;
+  font-weight: 650;
+}
+.public-church-card > p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  color: #747e66;
+  margin: 10px 0 19px;
+}
+.public-church-card .badge {
+  font-size: 8px;
+  white-space: normal;
+  text-align: left;
+  line-height: 1.6;
+}
+.public-news {
+  margin-top: 48px;
+}
+.public-news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+.public-news-card {
+  padding: 24px;
+  text-align: left;
+  border: 1px solid #e7ebdf;
+  border-radius: 8px;
+  background: #fff;
+}
+.public-news-card:hover {
+  border-color: #c2d0b5;
+}
+.public-news-card h3 {
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 650;
+  margin-top: 16px;
+  letter-spacing: -0.3px;
+}
+.public-news-card > p {
+  font-size: 11px;
+  line-height: 1.9;
+  color: #707d62;
+  margin-top: 9px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.public-news-card > span:last-child {
+  border-top: 1px solid #edf0e6;
+  padding-top: 17px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-size: 10px;
+  color: #6d7f5e;
+}
+.public-register-strip {
+  padding: 27px 29px;
+  background: #eaf1e3;
+  border: 1px solid #dfe8d4;
+  border-radius: 9px;
+  margin-top: 47px;
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+.register-icon {
+  color: #6b805a;
+  background: #ffffff74;
+  border-radius: 50%;
+  width: 62px;
+  height: 62px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+.public-register-strip > div {
+  flex: 1;
+}
+.public-register-strip h2 {
+  font-size: 19px;
+  letter-spacing: -0.5px;
+  font-weight: 650;
+}
+.public-register-strip p {
+  font-size: 11px;
+  line-height: 1.85;
+  color: #6f8161;
+  margin-top: 7px;
+  max-width: 590px;
+}
+.public-register-strip .button {
+  font-size: 11px;
+  padding: 13px 17px;
+}
+.public-footer {
+  max-width: 1156px;
+  margin: 0 auto;
+  padding: 25px 0 28px;
+  border-top: 1px solid #e4eadb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.public-footer > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.public-footer img {
+  width: 33px;
+  height: 33px;
+}
+.public-footer strong {
+  display: block;
+  font-size: 10px;
+  font-weight: 600;
+}
+.public-footer small {
+  font-size: 9px;
+  color: #757e65;
+  display: block;
+  margin-top: 5px;
+}
+.public-footer > span {
+  font-size: 9px;
+  color: #757d6c;
+  text-align: center;
+}
+.public-footer > button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  color: #6a805a;
+  white-space: nowrap;
+}
+.public-inner-page {
+  padding-top: 40px;
+  min-height: 60vh;
+}
+.public-inner-page > h1 {
+  font-size: 32px;
+  letter-spacing: -0.8px;
+  margin-bottom: 12px;
+}
+.public-page-intro {
+  font-size: 13px;
+  color: #6d7e5f;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+.public-parent-note {
+  margin-top: 28px;
+  border: 1px solid #e1e9d7;
+  border-radius: 10px;
+  padding: 35px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  background: #f0f5e9;
+}
+.public-parent-note > img {
+  width: 95px;
+  height: 95px;
+}
+.public-parent-note h2 {
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: -0.6px;
+  margin-top: 13px;
+}
+.public-parent-note p {
+  font-size: 12px;
+  color: #6b815a;
+  margin-top: 8px;
+}
+.public-prayer-page {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 60px 15px 45px;
+}
+.public-prayer-icon {
+  display: grid;
+  place-items: center;
+  margin: 0 auto 27px;
+  background: #eff3e8;
+  border: 1px solid #e1e9d5;
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  color: #6f805e;
+}
+.public-prayer-page h1 {
+  font-size: 38px;
+  font-weight: 650;
+  letter-spacing: -1.3px;
+  margin-top: 17px;
+}
+.public-prayer-page > p {
+  font-size: 14px;
+  line-height: 1.95;
+  color: #6e7e60;
+  max-width: 500px;
+  margin: 20px auto 30px;
+}
+.public-prayer-page > .button {
+  font-size: 13px;
+  padding: 15px 21px;
+}
+.public-prayer-page > .public-no-login {
+  justify-content: center;
+  font-size: 11px;
+  margin-top: 20px;
+}
+.public-prayer-page blockquote {
+  font-family: "Georgia", serif;
+  font-style: italic;
+  color: #6c825d;
+  font-size: 20px;
+  line-height: 1.8;
+  margin: 50px 0 0;
+  padding-top: 32px;
+  border-top: 1px solid #e2e9d8;
+}
+.public-prayer-page cite {
+  display: block;
+  font:
+    9px "DM Sans",
+    sans-serif;
+  letter-spacing: 1.8px;
+  color: #757f67;
+  margin-top: 15px;
+}
+.login-emblem {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  margin-bottom: 28px;
+}
+.login-emblem > img {
+  width: 65px;
+  height: 65px;
+}
+.login-emblem h3 {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+  line-height: 1.8;
+}
+.login-emblem p {
+  font-size: 11px;
+  color: #707e5f;
+  margin-top: 5px;
+}
+.public-toast {
+  left: 50%;
+}
+.church-sidebar-brand {
+  gap: 8px;
+  margin-left: 4px;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 29px;
+  letter-spacing: 0;
+}
+.church-sidebar-brand > img {
+  width: 39px;
+  height: 39px;
+}
+.church-sidebar-brand > span {
+  min-width: 0;
+}
+.church-sidebar-brand strong {
+  font-size: 14px;
+  letter-spacing: -0.5px;
+  font-weight: 750;
+  white-space: nowrap;
+}
+.church-sidebar-brand small {
+  font-size: 6.5px;
+  letter-spacing: 1.3px;
+  display: block;
+  margin-top: 7px;
+  font-weight: 500;
+  color: #6f7f63;
+}
+html[lang="ta"] body,
+html[lang="ta"] h1,
+html[lang="ta"] h2,
+html[lang="ta"] h3,
+html[lang="ta"] .brand,
+html[lang="ta"] .church-brand strong {
+  font-family: "Noto Sans Tamil", "DM Sans", sans-serif;
+}
+html[lang="ta"] .public-hero h1 {
+  font-size: 33px;
+  line-height: 1.7;
+  letter-spacing: -0.7px;
+}
+html[lang="ta"] .public-hero-copy > p {
+  font-size: 12px;
+  line-height: 2.15;
+}
+html[lang="ta"] .public-desktop-nav {
+  gap: 19px;
+}
+html[lang="ta"] .public-desktop-nav a {
+  font-size: 10px;
+}
+html[lang="ta"] .church-brand strong {
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 0;
+}
+html[lang="ta"] .church-brand small {
+  font-size: 9px;
+  letter-spacing: 0.3px;
+}
+html[lang="ta"] .public-section-heading h2 {
+  font-size: 20px;
+  line-height: 1.9;
+}
+html[lang="ta"] .public-welcome-intro h2 {
+  font-size: 19px;
+  line-height: 1.9;
+}
+html[lang="ta"] .public-church-card h3 {
+  font-size: 12px;
+  line-height: 2;
+}
+html[lang="ta"] .public-action-card h3,
+html[lang="ta"] .public-news-card h3 {
+  font-size: 13px;
+  line-height: 1.9;
+}
+html[lang="ta"] .public-action-card p,
+html[lang="ta"] .public-news-card > p {
+  font-size: 10px;
+  line-height: 2.1;
+}
+html[lang="ta"] .public-eyebrow {
+  font-size: 8px;
+  line-height: 1.9;
+  letter-spacing: 0.6px;
+}
+html[lang="ta"] .public-register-strip h2 {
+  font-size: 17px;
+  line-height: 1.8;
+}
+html[lang="ta"] .button {
+  font-size: 10px;
+  line-height: 1.75;
+  white-space: normal;
+}
+html[lang="ta"] .page-heading h1 {
+  font-size: 23px;
+  letter-spacing: -0.5px;
+  line-height: 1.9;
+}
+html[lang="ta"] .nav-link {
+  font-size: 10px;
+  gap: 9px;
+  line-height: 1.8;
+}
+html[lang="ta"] .nav-link span:nth-child(2) {
+  white-space: normal;
+}
+html[lang="ta"] .church-sidebar-brand strong {
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 1.9;
+}
+html[lang="ta"] .church-sidebar-brand small {
+  font-size: 8px;
+  letter-spacing: 0;
+}
+html[lang="ta"] .eyebrow {
+  letter-spacing: 0.7px;
+  line-height: 1.9;
+}
+html[lang="ta"] .workspace-switch strong {
+  font-size: 10px;
+}
+html[lang="ta"] .workspace-switch small {
+  font-size: 9px;
+}
+html[lang="ta"] .welcome-banner h2 {
+  font-size: 21px;
+  line-height: 1.75;
+}
+html[lang="ta"] .welcome-banner p {
+  font-size: 9px;
+  line-height: 2;
+}
+html[lang="ta"] .welcome-banner .church-art {
+  opacity: 0.55;
+}
+html[lang="ta"] .welcome-banner .banner-content {
+  max-width: 83%;
+}
+html[lang="ta"] .section-heading h2 {
+  font-size: 12px;
+  line-height: 1.9;
+}
+html[lang="ta"] .attention-title h2 {
+  font-size: 11px;
+  line-height: 1.8;
+}
+html[lang="ta"] .attention-item small {
+  line-height: 1.8;
+}
+html[lang="ta"] .stat-top {
+  font-size: 9px;
+  line-height: 1.8;
+}
+html[lang="ta"] .stat-detail {
+  white-space: normal;
+  line-height: 1.9;
+  min-height: 21px;
+  font-size: 8px;
+}
+html[lang="ta"] .church-name-cell strong {
+  white-space: normal;
+  line-height: 1.9;
+  font-size: 10px;
+}
+html[lang="ta"] .table-cell-stack strong {
+  white-space: normal;
+  line-height: 1.9;
+}
+html[lang="ta"] .modal-heading h2 {
+  font-size: 17px;
+  line-height: 1.9;
+}
+html[lang="ta"] .field > span {
+  font-size: 10px;
+  line-height: 1.9;
+}
+html[lang="ta"] .field > input,
+html[lang="ta"] .field > select {
+  font-size: 11px;
+  line-height: 1.8;
+}
+html[lang="ta"] .field > small {
+  line-height: 1.9;
+}
+html[lang="ta"] .modal-heading p {
+  line-height: 1.9;
+}
+html[lang="ta"] .badge {
+  font-size: 8px;
+  line-height: 1.7;
+}
+html[lang="ta"] .public-no-login {
+  font-size: 9px;
+}
+html[lang="ta"] .table-tabs > button {
+  font-size: 9px;
+}
+html[lang="ta"] .public-prayer-page h1 {
+  font-size: 31px;
+  line-height: 1.8;
+}
+html[lang="ta"] .public-prayer-page blockquote {
+  font-family: "Noto Sans Tamil", sans-serif;
+  font-size: 16px;
+  line-height: 2.1;
+}
+@media (max-width: 1180px) {
+  .public-header {
+    padding: 21px 30px;
+    gap: 20px;
+  }
+  .public-desktop-nav {
+    gap: 18px;
+  }
+  .public-desktop-nav a {
+    font-size: 11px;
+  }
+  .public-header-actions {
+    gap: 12px;
+  }
+  .public-main {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .public-hero {
+    gap: 30px;
+    padding-top: 48px;
+  }
+  .public-hero h1 {
+    font-size: 37px;
+  }
+  .public-hero-art {
+    min-height: 360px;
+  }
+  .hero-art-label {
+    top: 50px;
+  }
+  .public-footer {
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  .public-hero-copy > p {
+    font-size: 12px;
+  }
+  .public-church-grid {
+    gap: 14px;
+  }
+  .public-church-card {
+    padding: 23px 17px;
+  }
+  .public-church-card h3 {
+    font-size: 13px;
+  }
+  .public-header .church-brand strong {
+    font-size: 15px;
+  }
+  .church-brand img {
+    width: 43px;
+    height: 43px;
+  }
+  .public-header .church-brand small {
+    font-size: 7px;
+  }
+  .public-header .church-brand {
+    gap: 9px;
+  }
+  html[lang="ta"] .public-desktop-nav {
+    gap: 12px;
+  }
+  html[lang="ta"] .public-desktop-nav a {
+    font-size: 9px;
+  }
+  .public-header .staff-login-button {
+    font-size: 10px;
+  }
+  html[lang="ta"] .public-header .staff-login-button {
+    font-size: 9px;
+  }
+  html[lang="ta"] .public-hero h1 {
+    font-size: 29px;
+  }
+  html[lang="ta"] .public-header .church-brand strong {
+    font-size: 12px;
+  }
+  .app-shell .topbar-right {
+    gap: 13px;
+  }
+  .app-shell .global-search input {
+    width: 130px;
+  }
+}
+@media (max-width: 960px) {
+  .public-desktop-nav {
+    display: none;
+  }
+  .public-header {
+    padding: 18px 28px;
+  }
+  .public-menu-toggle {
+    display: flex;
+    width: 36px;
+    height: 36px;
+  }
+  .public-mobile-nav {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #e4eadb;
+    background: #fff;
+    padding: 10px 28px;
+    box-shadow: 0 8px 15px #334b1e06;
+  }
+  .public-mobile-nav button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 15px 12px;
+    color: #6b825c;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+  .public-mobile-nav button.active {
+    background: #eff5e7;
+    color: #3c6748;
+  }
+  .public-mobile-nav button + button {
+    border-top: 1px solid #f0f3e9;
+  }
+  .public-header .church-brand strong {
+    font-size: 17px;
+  }
+  .public-header .church-brand small {
+    font-size: 8px;
+  }
+  .public-header .church-brand img {
+    width: 46px;
+    height: 46px;
+  }
+  .public-main {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+  .public-hero {
+    gap: 25px;
+  }
+  .public-hero h1 {
+    font-size: 33px;
+    letter-spacing: -1.2px;
+  }
+  .public-hero-art {
+    min-height: 320px;
+  }
+  .hero-art-label {
+    top: 45px;
+  }
+  .hero-art-label > span {
+    font-size: 5px;
+    letter-spacing: 0.8px;
+  }
+  .hero-art-label > img {
+    width: 34px;
+    height: 34px;
+  }
+  .hero-art-label {
+    gap: 10px;
+  }
+  .public-hero-actions .button {
+    font-size: 10px;
+    padding: 12px 13px;
+  }
+  .public-hero-copy > p {
+    font-size: 11px;
+  }
+  .public-eyebrow {
+    font-size: 8px;
+    letter-spacing: 1.1px;
+  }
+  .public-welcome-intro {
+    gap: 40px;
+  }
+  .public-welcome-intro h2 {
+    font-size: 21px;
+  }
+  .public-welcome-intro > p {
+    font-size: 11px;
+    max-width: 320px;
+  }
+  .public-church-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .public-church-card h3 {
+    min-height: 0;
+    font-size: 15px;
+  }
+  .public-church-card .church-table-icon {
+    margin-bottom: 18px;
+  }
+  .public-action-card {
+    padding: 21px;
+  }
+  .public-action-card h3 {
+    font-size: 14px;
+  }
+  .public-action-card p {
+    font-size: 10px;
+  }
+  .public-register-strip {
+    padding: 24px;
+    gap: 17px;
+  }
+  .public-register-strip .register-icon {
+    width: 49px;
+    height: 49px;
+  }
+  .public-register-strip h2 {
+    font-size: 17px;
+  }
+  .public-register-strip p {
+    font-size: 10px;
+  }
+  .public-news-card {
+    padding: 20px;
+  }
+  .public-news-card h3 {
+    font-size: 13px;
+  }
+  .public-news-card > p {
+    font-size: 10px;
+  }
+  .public-section-heading h2 {
+    font-size: 20px;
+  }
+  .public-footer {
+    margin-left: 28px;
+    margin-right: 28px;
+  }
+  .public-footer > span {
+    max-width: 230px;
+    line-height: 1.8;
+  }
+  .app-shell .global-search {
+    display: none;
+  }
+  .church-sidebar-brand {
+    margin-left: 0;
+    gap: 6px;
+  }
+  .church-sidebar-brand > img {
+    width: 33px;
+    height: 33px;
+  }
+  .church-sidebar-brand strong {
+    font-size: 11px;
+  }
+  .church-sidebar-brand small {
+    font-size: 5px;
+    letter-spacing: 1.1px;
+  }
+  html[lang="ta"] .church-sidebar-brand strong {
+    font-size: 9px;
+  }
+  html[lang="ta"] .church-sidebar-brand small {
+    font-size: 7px;
+  }
+  html[lang="ta"] .public-header .church-brand strong {
+    font-size: 14px;
+  }
+  html[lang="ta"] .public-hero h1 {
+    font-size: 24px;
+  }
+  html[lang="ta"] .public-hero-copy > p {
+    font-size: 11px;
+  }
+  html[lang="ta"] .public-welcome-intro h2 {
+    font-size: 17px;
+  }
+  html[lang="ta"] .public-register-strip h2 {
+    font-size: 14px;
+  }
+  html[lang="ta"] .public-action-card h3 {
+    font-size: 11px;
+  }
+}
+@media (max-width: 650px) {
+  .public-header {
+    padding: 14px 18px;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    box-shadow: 0 1px 5px #28382004;
+  }
+  .public-header .church-brand {
+    gap: 8px;
+  }
+  .public-header .church-brand img {
+    width: 38px;
+    height: 38px;
+  }
+  .public-header .church-brand strong {
+    font-size: 14px;
+    letter-spacing: -0.6px;
+  }
+  .public-header .church-brand small {
+    font-size: 6px;
+    letter-spacing: 1.1px;
+    margin-top: 5px;
+  }
+  .public-header-actions {
+    gap: 8px;
+  }
+  .staff-login-button {
+    display: none;
+  }
+  .language-toggle {
+    padding: 3px;
+  }
+  .language-toggle button {
+    height: 34px;
+    font-size: 10px;
+    padding: 0 6px;
+    min-width: 29px;
+  }
+  .language-toggle button[lang="ta"] {
+    font-size: 10px;
+    min-width: 43px;
+  }
+  .public-menu-toggle {
+    width: 30px;
+    height: 40px;
+  }
+  .public-mobile-nav {
+    padding: 7px 18px 13px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 69px;
+    z-index: 39;
+    box-shadow: 0 10px 25px #2d3d2012;
+  }
+  .public-mobile-nav button {
+    min-height: 48px;
+    padding: 14px;
+    font-size: 13px;
+  }
+  .public-main {
+    padding: 0 20px 30px;
+  }
+  .public-hero {
+    grid-template-columns: 1fr;
+    gap: 27px;
+    padding: 37px 0 34px;
+  }
+  .public-hero h1 {
+    font-size: 35px;
+    letter-spacing: -1.4px;
+    line-height: 1.38;
+  }
+  .public-eyebrow {
+    font-size: 7.5px;
+    letter-spacing: 1.3px;
+    line-height: 1.8;
+    margin-bottom: 17px;
+  }
+  .public-hero-copy > p {
+    font-size: 13px;
+    line-height: 1.95;
+    margin-top: 18px;
+    max-width: 480px;
+  }
+  .public-hero-actions {
+    margin-top: 23px;
+    gap: 9px;
+  }
+  .public-hero-actions .button {
+    font-size: 11px;
+    min-height: 47px;
+    padding: 12px 13px;
+    gap: 7px;
+  }
+  .public-hero-actions .button > svg {
+    width: 16px;
+  }
+  .public-no-login {
+    font-size: 10px;
+    margin-top: 15px;
+  }
+  .public-hero-art {
+    min-height: 0;
+    height: 285px;
+    max-width: 450px;
+    width: 100%;
+    justify-self: center;
+    border-radius: 125px 125px 10px 10px;
+    padding-bottom: 16px;
+  }
+  .public-hero-art > .church-art {
+    width: 82%;
+    max-width: 330px;
+    height: auto;
+    margin-top: 0;
+  }
+  .hero-art-label {
+    top: 29px;
+    gap: 12px;
+  }
+  .hero-art-label > span {
+    font-size: 5px;
+    letter-spacing: 0.8px;
+  }
+  .hero-art-label > img {
+    width: 30px;
+    height: 30px;
+  }
+  .public-art-caption {
+    margin-top: 0;
+    gap: 10px;
+  }
+  .public-art-caption > span {
+    width: 26px;
+  }
+  .public-art-caption > p {
+    font-size: 9px;
+  }
+  .public-welcome-intro {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 27px 0 22px;
+  }
+  .public-welcome-intro h2 {
+    font-size: 23px;
+  }
+  .public-welcome-intro .eyebrow {
+    margin-bottom: 8px;
+  }
+  .public-welcome-intro > p {
+    font-size: 12px;
+    line-height: 1.9;
+    max-width: none;
+  }
+  .public-action-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .public-action-card {
+    padding: 23px 23px 23px 83px;
+    min-height: 113px;
+  }
+  .public-action-icon {
+    position: absolute;
+    left: 21px;
+    top: 27px;
+    margin: 0;
+    width: 43px;
+    height: 43px;
+  }
+  .public-action-card h3 {
+    font-size: 16px;
+    padding-right: 16px;
+  }
+  .public-action-card p {
+    font-size: 12px;
+    line-height: 1.85;
+    margin-top: 7px;
+    max-width: 290px;
+  }
+  .public-action-arrow {
+    right: 18px;
+    top: 23px;
+    width: 15px;
+  }
+  .public-church-section {
+    margin-top: 35px;
+  }
+  .public-section-heading {
+    gap: 15px;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 19px;
+  }
+  .public-section-heading h2 {
+    font-size: 22px;
+    line-height: 1.6;
+  }
+  .public-section-heading .text-button {
+    font-size: 12px;
+    min-height: 30px;
+  }
+  .public-church-grid {
+    gap: 12px;
+  }
+  .public-church-card {
+    padding: 20px 15px;
+  }
+  .public-church-card h3 {
+    font-size: 12px;
+    line-height: 1.8;
+    min-height: 44px;
+  }
+  .public-church-card > p {
+    font-size: 10px;
+    line-height: 1.7;
+    margin: 8px 0 16px;
+  }
+  .public-church-code {
+    top: 24px;
+    right: 16px;
+    font-size: 8px;
+  }
+  .public-church-card .church-table-icon {
+    width: 36px;
+    height: 36px;
+    margin-bottom: 18px;
+  }
+  .public-church-card .badge {
+    font-size: 7.5px;
+    line-height: 1.8;
+    padding: 5px 6px;
+    justify-content: flex-start;
+  }
+  .public-news {
+    margin-top: 35px;
+  }
+  .public-news .public-section-heading {
+    flex-direction: row;
+    align-items: center;
+  }
+  .public-news .public-section-heading h2 {
+    font-size: 22px;
+  }
+  .public-news-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  .public-news-card {
+    padding: 23px;
+  }
+  .public-news-card h3 {
+    font-size: 17px;
+    margin-top: 15px;
+  }
+  .public-news-card > p {
+    font-size: 12px;
+    line-height: 1.85;
+    -webkit-line-clamp: 3;
+    margin-top: 8px;
+  }
+  .public-news-card > span:last-child {
+    font-size: 11px;
+    padding-top: 16px;
+    margin-top: 16px;
+  }
+  .public-register-strip {
+    margin-top: 31px;
+    display: grid;
+    grid-template-columns: 43px 1fr;
+    padding: 25px 21px;
+    gap: 17px;
+  }
+  .public-register-strip .register-icon {
+    width: 43px;
+    height: 43px;
+  }
+  .public-register-strip .register-icon > svg {
+    width: 24px;
+  }
+  .public-register-strip h2 {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .public-register-strip p {
+    font-size: 11px;
+    line-height: 1.9;
+    margin-top: 10px;
+  }
+  .public-register-strip .button {
+    grid-column: 1/-1;
+    min-height: 47px;
+    font-size: 12px;
+  }
+  .public-footer {
+    margin: 0 20px;
+    padding: 25px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .public-footer > div {
+    flex: 1;
+  }
+  .public-footer > span {
+    order: 3;
+    width: 100%;
+    max-width: none;
+    text-align: left;
+    font-size: 9px;
+    line-height: 1.9;
+  }
+  .public-footer strong {
+    font-size: 9px;
+    line-height: 1.7;
+  }
+  .public-footer small {
+    font-size: 8px;
+  }
+  .public-footer > button {
+    min-height: 44px;
+    font-size: 10px;
+    gap: 5px;
+  }
+  .public-inner-page {
+    padding-top: 29px;
+  }
+  .public-inner-page > h1 {
+    font-size: 29px;
+  }
+  .public-inner-page .page-heading h1 {
+    font-size: 26px;
+    line-height: 1.55;
+  }
+  .public-inner-page .page-description {
+    font-size: 12px;
+    line-height: 1.9;
+  }
+  .public-page-intro {
+    font-size: 12px;
+    line-height: 1.9;
+    margin-bottom: 23px;
+  }
+  .public-parent-note {
+    padding: 25px 21px;
+    gap: 17px;
+    align-items: flex-start;
+  }
+  .public-parent-note > img {
+    width: 64px;
+    height: 64px;
+  }
+  .public-parent-note h2 {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .public-parent-note p {
+    font-size: 11px;
+    line-height: 1.8;
+  }
+  .public-parent-note .badge {
+    font-size: 8px;
+  }
+  .public-prayer-page {
+    padding: 37px 0 27px;
+  }
+  .public-prayer-icon {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 29px;
+  }
+  .public-prayer-page h1 {
+    font-size: 32px;
+    letter-spacing: -1px;
+    line-height: 1.6;
+  }
+  .public-prayer-page > p {
+    font-size: 13px;
+    line-height: 2;
+    margin-top: 14px;
+  }
+  .public-prayer-page .button {
+    width: 100%;
+    min-height: 49px;
+    font-size: 12px;
+  }
+  .public-prayer-page blockquote {
+    font-size: 19px;
+    line-height: 1.9;
+    margin-top: 38px;
+    padding-top: 28px;
+  }
+  .public-prayer-page cite {
+    font-size: 9px;
+    line-height: 1.9;
+  }
+  .public-prayer-page .public-no-login {
+    font-size: 11px;
+  }
+  .modal .button {
+    min-height: 44px;
+    font-size: 12px;
+  }
+  .modal input:not([type="checkbox"]):not([type="radio"]),
+  .modal select,
+  .modal textarea {
+    font-size: 16px;
+    min-height: 45px;
+  }
+  .modal input[type="checkbox"],
+  .modal input[type="radio"] {
+    width: 19px;
+    height: 19px;
+  }
+  .modal .field > span {
+    font-size: 12px;
+  }
+  .modal .field > small {
+    font-size: 10px;
+  }
+  .modal .check-line,
+  .modal .checkbox-grid label {
+    font-size: 11px;
+    line-height: 1.9;
+    min-height: 30px;
+  }
+  .modal .form-grid {
+    grid-template-columns: 1fr;
+  }
+  .modal .field {
+    margin-bottom: 20px;
+  }
+  .modal .consent-box p {
+    font-size: 11px;
+  }
+  .modal .inline-info,
+  .modal .demo-disclaimer {
+    font-size: 11px;
+    line-height: 1.95;
+  }
+  .modal .modal-heading p {
+    font-size: 11px;
+  }
+  .modal .modal-footer {
+    position: sticky;
+    bottom: 0;
+    z-index: 4;
+    flex-wrap: wrap;
+    box-shadow: 0 -2px 8px #29371904;
+  }
+  .modal .channel-selector {
+    gap: 9px;
+  }
+  .modal .channel-selector > button {
+    min-height: 66px;
+  }
+  .modal .audience-churches label {
+    min-height: 43px;
+    font-size: 11px;
+  }
+  .modal .amount-presets button {
+    min-height: 44px;
+    font-size: 12px;
+  }
+  .modal .generated-id {
+    font-size: 11px;
+    flex-wrap: wrap;
+  }
+  .modal .schedule-row {
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .modal .schedule-row label {
+    font-size: 12px;
+    min-height: 35px;
+  }
+  .church-sidebar-brand {
+    gap: 9px;
+    margin-left: 0;
+  }
+  .church-sidebar-brand > img {
+    width: 39px;
+    height: 39px;
+  }
+  .church-sidebar-brand strong {
+    font-size: 14px;
+  }
+  .church-sidebar-brand small {
+    font-size: 6px;
+    letter-spacing: 1.2px;
+  }
+  .app-shell .topbar {
+    gap: 8px;
+  }
+  .app-shell .topbar-right {
+    gap: 8px;
+  }
+  .app-shell .topbar .breadcrumb {
+    gap: 7px;
+    font-size: 10px;
+  }
+  .app-shell .topbar .language-toggle button {
+    height: 30px;
+    min-width: 28px;
+    padding: 0 4px;
+  }
+  .app-shell .topbar .language-toggle button[lang="ta"] {
+    min-width: 39px;
+    font-size: 9px;
+  }
+  .app-shell .topbar .profile-button {
+    display: none;
+  }
+  .table-tabs > button,
+  .icon-button,
+  .text-button,
+  .nav-link,
+  .wish-button {
+    min-height: 40px;
+  }
+  .table-tabs > button {
+    min-width: 42px;
+  }
+  .pagination button {
+    width: 37px;
+    height: 38px;
+  }
+  .public-menu-toggle {
+    min-height: 40px;
+  }
+  .public-site .badge {
+    min-height: 0;
+  }
+  .public-site .button {
+    min-height: 44px;
+  }
+  .public-site .filter-chips button {
+    min-height: 42px;
+  }
+  .app-shell .church-select {
+    min-height: 41px;
+  }
+  .app-shell .church-select select {
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  .button {
+    min-height: 42px;
+  }
+  .topbar .icon-button {
+    min-height: 36px;
+  }
+  .church-table td:last-child {
+    padding-right: 16px;
+  }
+  .table-foot {
+    line-height: 1.8;
+  }
+  .stat-detail {
+    line-height: 1.8;
+    white-space: normal;
+  }
+  html[lang="ta"] .public-header .church-brand strong {
+    font-size: 10.5px;
+    letter-spacing: -0.3px;
+    line-height: 1.9;
+  }
+  html[lang="ta"] .public-header .church-brand small {
+    font-size: 7px;
+    letter-spacing: 0;
+    margin-top: 3px;
+  }
+  html[lang="ta"] .public-header .church-brand img {
+    width: 33px;
+    height: 33px;
+  }
+  html[lang="ta"] .public-hero h1 {
+    font-size: 28px;
+    letter-spacing: -0.5px;
+    line-height: 1.8;
+  }
+  html[lang="ta"] .public-hero-copy > p {
+    font-size: 12px;
+    line-height: 2.2;
+  }
+  html[lang="ta"] .public-eyebrow {
+    font-size: 7.3px;
+    line-height: 1.9;
+    letter-spacing: 0.3px;
+  }
+  html[lang="ta"] .public-hero-actions .button {
+    font-size: 10px;
+    line-height: 1.9;
+    min-height: 49px;
+  }
+  html[lang="ta"] .public-art-caption > p {
+    font-size: 8px;
+  }
+  html[lang="ta"] .public-welcome-intro h2 {
+    font-size: 21px;
+    line-height: 1.9;
+  }
+  html[lang="ta"] .public-welcome-intro > p {
+    font-size: 11px;
+    line-height: 2.2;
+  }
+  html[lang="ta"] .public-action-card h3 {
+    font-size: 13px;
+    line-height: 1.9;
+  }
+  html[lang="ta"] .public-action-card p {
+    font-size: 11px;
+    line-height: 2;
+  }
+  html[lang="ta"] .public-church-card h3 {
+    font-size: 10.5px;
+    line-height: 2;
+    min-height: 64px;
+  }
+  html[lang="ta"] .public-church-card .badge {
+    font-size: 7px;
+    line-height: 2;
+  }
+  html[lang="ta"] .public-section-heading h2 {
+    font-size: 20px;
+    line-height: 1.95;
+  }
+  html[lang="ta"] .public-section-heading .text-button {
+    font-size: 10px;
+  }
+  html[lang="ta"] .public-news-card h3 {
+    font-size: 15px;
+    line-height: 1.9;
+  }
+  html[lang="ta"] .public-news-card > p {
+    font-size: 11px;
+    line-height: 2.1;
+  }
+  html[lang="ta"] .public-news-card > span:last-child {
+    font-size: 9px;
+    line-height: 1.9;
+  }
+  html[lang="ta"] .public-register-strip h2 {
+    font-size: 17px;
+    line-height: 1.9;
+  }
+  html[lang="ta"] .public-register-strip p {
+    font-size: 11px;
+    line-height: 2.1;
+  }
+  html[lang="ta"] .public-footer strong {
+    font-size: 8px;
+    line-height: 1.9;
+  }
+  html[lang="ta"] .public-footer > button {
+    font-size: 8px;
+  }
+  html[lang="ta"] .public-footer > span {
+    font-size: 8px;
+    line-height: 2;
+  }
+  html[lang="ta"] .public-inner-page .page-heading h1 {
+    font-size: 24px;
+    line-height: 1.85;
+  }
+  html[lang="ta"] .modal input:not([type="checkbox"]):not([type="radio"]),
+  html[lang="ta"] .modal select,
+  html[lang="ta"] .modal textarea {
+    font-size: 16px;
+    min-height: 46px;
+  }
+  html[lang="ta"] .modal .field > span {
+    font-size: 11px;
+  }
+  html[lang="ta"] .modal .field > small {
+    font-size: 10px;
+    line-height: 2;
+  }
+  html[lang="ta"] .modal .button {
+    font-size: 10px;
+    line-height: 2;
+    min-height: 46px;
+  }
+  html[lang="ta"] .modal .check-line,
+  html[lang="ta"] .modal .checkbox-grid label {
+    font-size: 10px;
+    line-height: 2.1;
+  }
+  html[lang="ta"] .modal .modal-heading p {
+    font-size: 10px;
+    line-height: 2.1;
+  }
+  html[lang="ta"] .modal .inline-info,
+  html[lang="ta"] .modal .demo-disclaimer {
+    font-size: 10px;
+    line-height: 2.1;
+  }
+  html[lang="ta"] .modal-heading h2 {
+    font-size: 18px;
+    line-height: 1.95;
+  }
+  html[lang="ta"] .page-heading h1 {
+    font-size: 24px;
+  }
+  html[lang="ta"] .heading-actions {
+    flex-wrap: wrap;
+  }
+  html[lang="ta"] .stats-grid {
+    gap: 10px;
+  }
+  html[lang="ta"] .stat-card {
+    padding: 14px 12px;
+  }
+  html[lang="ta"] .stat-top {
+    font-size: 8px;
+    gap: 4px;
+    line-height: 2;
+  }
+  html[lang="ta"] .stat-icon {
+    width: 25px;
+    height: 26px;
+  }
+  html[lang="ta"] .stat-value {
+    font-size: 25px;
+  }
+  html[lang="ta"] .stat-detail {
+    font-size: 8px;
+    line-height: 2;
+  }
+  html[lang="ta"] .church-sidebar-brand strong {
+    font-size: 12px;
+  }
+  html[lang="ta"] .church-sidebar-brand small {
+    font-size: 8px;
+  }
+  html[lang="ta"] .welcome-banner h2 {
+    font-size: 24px;
+    line-height: 1.8;
+  }
+  html[lang="ta"] .welcome-banner .banner-content {
+    max-width: 90%;
+  }
+  html[lang="ta"] .welcome-banner {
+    min-height: 280px;
+  }
+  html[lang="ta"] .welcome-banner .church-art {
+    opacity: 0.3;
+    width: 60%;
+  }
+  html[lang="ta"] .public-prayer-page h1 {
+    font-size: 28px;
+    line-height: 1.9;
+  }
+  html[lang="ta"] .public-prayer-page > p {
+    font-size: 12px;
+    line-height: 2.1;
+  }
+  html[lang="ta"] .public-prayer-page blockquote {
+    font-size: 15px;
+    line-height: 2.3;
+  }
+  html[lang="ta"] .review-member {
+    flex-wrap: wrap;
+  }
+  html[lang="ta"] .modal .modal-footer .button {
+    flex: 1;
+  }
+}
+@media (max-width: 380px) {
+  .public-header {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+  .public-header-actions {
+    gap: 5px;
+  }
+  .public-header .church-brand strong {
+    font-size: 12px;
+  }
+  .public-header .church-brand small {
+    font-size: 5.5px;
+  }
+  .public-main {
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+  .public-hero h1 {
+    font-size: 31px;
+  }
+  .public-hero-actions .button {
+    font-size: 10px;
+    padding: 12px 11px;
+  }
+  .public-church-card {
+    padding: 19px 12px;
+  }
+  .public-church-card h3 {
+    font-size: 11px;
+  }
+  .public-church-card .badge {
+    font-size: 7px;
+  }
+  .public-hero-art {
+    height: 265px;
+  }
+  .public-art-caption > p {
+    font-size: 8px;
+  }
+  html[lang="ta"] .public-header .church-brand strong {
+    font-size: 9.5px;
+  }
+  html[lang="ta"] .public-header .church-brand small {
+    font-size: 6.5px;
+  }
+  html[lang="ta"] .public-header .church-brand img {
+    width: 29px;
+    height: 29px;
+  }
+  html[lang="ta"] .public-hero h1 {
+    font-size: 26px;
+  }
+  html[lang="ta"] .public-hero-actions .button {
+    font-size: 9px;
+  }
+  .public-hero-actions {
+    gap: 7px;
+  }
+  .public-no-login {
+    font-size: 9px;
+  }
+}

@@ -1,0 +1,718 @@
+/* Deeper forest greens, stronger text contrast, and a clear public identity. */
+:root {
+  --green: #214d38;
+  --green-dark: #163b2b;
+  --text: #233a2c;
+  color: #26382b;
+}
+.page-description,
+.section-heading p,
+.notice-mini p,
+.stat-top,
+.stat-detail,
+.church-name-cell small,
+.celebration-item small,
+.attention-card > p {
+  color: #66755e;
+}
+.page-heading h1,
+.section-heading h2,
+.notice-mini h3,
+.church-name-cell strong,
+.attention-title h2 {
+  color: #223c2a;
+}
+.nav-link {
+  color: #607257;
+}
+.nav-link > svg {
+  color: #718466;
+}
+.nav-link.active {
+  background: #e0ead7;
+  color: #254d30;
+}
+.nav-link.active > svg {
+  color: #285d36;
+}
+.nav-section-label {
+  color: #66775b;
+}
+.welcome-banner {
+  background: #e0ebd7;
+  border-color: #cdddc0;
+}
+.welcome-banner h2 {
+  color: #284b31;
+}
+.welcome-banner p {
+  color: #637958;
+}
+.banner-eyebrow {
+  color: #627c52;
+}
+.stat-card,
+.card {
+  border-color: #e1e7db;
+}
+.text-button {
+  color: #436534;
+}
+.badge.green {
+  background: #eaf2e2;
+  color: #456c30;
+  border-color: #d6e4c8;
+}
+.badge.neutral {
+  color: #596c4c;
+}
+.badge.orange {
+  color: #866334;
+}
+.badge.purple {
+  color: #796090;
+}
+.badge.blue {
+  color: #52738a;
+}
+.sidebar-verse {
+  background: #f0f4e9;
+  border-color: #e0e7d5;
+}
+.sidebar-verse p {
+  color: #52683f;
+}
+.sidebar-verse small {
+  color: #778565;
+}
+.public-site {
+  color: #243e2c;
+  background: #fafbf7;
+}
+.public-header {
+  background: #fafbf7;
+  border-color: #dfe7d7;
+}
+.public-header .church-brand strong {
+  color: #21482f;
+}
+.public-desktop-nav a {
+  color: #566d49;
+}
+.public-desktop-nav a.active {
+  color: #214e30;
+}
+.public-desktop-nav a.active:after {
+  background: #57783d;
+}
+.staff-login-button {
+  color: #35532a;
+}
+.language-toggle {
+  background: #e8eddf;
+  border-color: #d5deca;
+}
+.language-toggle button {
+  color: #526947;
+}
+.language-toggle button.selected {
+  color: #214e30;
+  border: 1px solid #dbe4ce;
+  background: #fff;
+}
+.public-hero {
+  background: #173e2c;
+  border: 1px solid #193c2b;
+  border-radius: 15px;
+  margin-top: 31px;
+  padding: 46px 37px;
+  gap: 35px;
+  box-shadow: 0 8px 28px #173b2208;
+}
+.public-hero h1 {
+  font-size: 40px;
+  color: #f8faf1;
+}
+.public-hero h1 em {
+  color: #bfd0a9;
+}
+.public-hero-copy > p {
+  color: #d1debf;
+  font-size: 12px;
+}
+.public-hero .public-eyebrow {
+  color: #b8cba4;
+  font-size: 8px;
+}
+.public-hero .public-eyebrow > span {
+  background: #c4d8a7;
+}
+.public-hero .public-no-login {
+  color: #b8cda2;
+}
+.public-hero-actions .button.primary {
+  background: #edf3e3;
+  border-color: #edf3e3;
+  color: #234d31;
+}
+.public-hero-actions .button.primary:hover {
+  background: #fff;
+}
+.public-hero-actions .button.secondary {
+  color: #e2ebd5;
+  background: transparent;
+  border-color: #607956;
+}
+.public-hero-actions .button.secondary:hover {
+  background: #284e33;
+}
+.public-hero-art {
+  min-height: 355px;
+  background: #dce6cd;
+  border-color: #d4e0c3;
+}
+.public-art-caption p {
+  color: #3b5931;
+}
+.hero-art-label > span {
+  color: #566f47;
+}
+.public-welcome-intro {
+  margin-top: 36px;
+}
+.public-welcome-intro h2,
+.public-section-heading h2 {
+  color: #23452d;
+}
+.public-welcome-intro > p {
+  color: #5c7350;
+}
+.public-eyebrow,
+.eyebrow {
+  color: #657b54;
+}
+.public-action-card.sage {
+  background: #e2ebd8;
+  border-color: #cfddc2;
+}
+.public-action-card.peach {
+  background: #f4e8d4;
+  border-color: #e7d8bb;
+}
+.public-action-card.lavender {
+  background: #eae3ef;
+  border-color: #ddd1e5;
+}
+.public-action-card h3 {
+  color: #284331;
+}
+.public-action-card p {
+  color: #61714f;
+}
+.public-action-icon {
+  color: #416c39;
+}
+.peach .public-action-icon {
+  color: #957546;
+}
+.lavender .public-action-icon {
+  color: #826893;
+}
+.public-action-arrow {
+  color: #647b52;
+}
+.public-church-card h3 {
+  color: #284a31;
+}
+.public-church-card > p {
+  color: #61784f;
+}
+.public-church-code {
+  color: #80916c;
+}
+.public-news-card h3 {
+  color: #284a31;
+}
+.public-news-card > p {
+  color: #637955;
+}
+.public-news-card > span:last-child {
+  color: #527243;
+}
+.public-register-strip {
+  background: #dce8d0;
+  border-color: #c9dcb9;
+}
+.public-register-strip h2 {
+  color: #284d30;
+}
+.public-register-strip p {
+  color: #55764a;
+}
+.public-footer strong {
+  color: #355632;
+}
+.public-footer small,
+.public-footer > span {
+  color: #607753;
+}
+.public-no-login {
+  color: #617e4f;
+}
+.public-parent-note {
+  background: #e4edda;
+  border-color: #d2e0c2;
+}
+.public-page-intro,
+.public-parent-note p {
+  color: #607e4f;
+}
+.public-prayer-page h1 {
+  color: #21492d;
+}
+.public-prayer-page > p {
+  color: #5b7650;
+}
+.public-prayer-page blockquote {
+  color: #46673a;
+}
+.field > span {
+  color: #506c41;
+}
+.field > small,
+.check-line,
+.checkbox-grid label {
+  color: #627d52;
+}
+.field > input,
+.field > select,
+.field > textarea {
+  color: #334e2a;
+  border-color: #cfddc4;
+}
+.modal-heading p {
+  color: #637b50;
+}
+.modal-heading h2 {
+  color: #2b4a2e;
+}
+.inline-info {
+  color: #587646;
+  background: #edf4e6;
+  border-color: #d9e6cc;
+}
+.demo-disclaimer {
+  color: #647c51;
+}
+.consent-box {
+  background: #f0f5e9;
+  border-color: #dce7cf;
+}
+.consent-box > strong {
+  color: #54743f;
+}
+.consent-box > p {
+  color: #6d835b;
+}
+.detail-grid dt {
+  color: #697e58;
+}
+.detail-grid dd {
+  color: #416236;
+}
+.location-section {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: 35px;
+  padding: 33px;
+  background: #edf2e5;
+  border: 1px solid #dce5d0;
+  border-radius: 12px;
+  margin: 42px 0 0;
+}
+.location-copy {
+  padding: 5px 0;
+}
+.location-copy h2 {
+  font-size: 26px;
+  letter-spacing: -0.7px;
+  line-height: 1.5;
+  color: #294c30;
+}
+.location-copy > p {
+  font-size: 12px;
+  color: #647d52;
+  line-height: 1.9;
+  max-width: 430px;
+  margin-top: 13px;
+}
+.location-copy address {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  font-style: normal;
+  margin-top: 23px;
+  padding-top: 22px;
+  border-top: 1px solid #d7e1cb;
+}
+.location-copy address > span {
+  color: #577749;
+  margin-top: 2px;
+}
+.location-copy address strong {
+  font-size: 12px;
+  font-weight: 600;
+  color: #3c6031;
+  line-height: 1.8;
+}
+.location-copy address p {
+  font-size: 12px;
+  color: #5e794b;
+  line-height: 1.9;
+  max-width: 330px;
+  margin-top: 6px;
+}
+.location-actions {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+.location-actions .button {
+  font-size: 11px;
+  min-height: 43px;
+}
+.location-actions .text-button {
+  font-size: 11px;
+  color: #547540;
+}
+.location-map {
+  min-height: 280px;
+  border: 1px solid #cddcc0;
+  border-radius: 9px;
+  overflow: hidden;
+  position: relative;
+  background: #dce6d0;
+}
+.location-map iframe {
+  border: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  filter: saturate(0.68);
+}
+.map-open-link {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  right: 12px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: #fffffff2;
+  border: 1px solid #d6e0cd;
+  box-shadow: 0 2px 8px #2e441a10;
+  padding: 12px;
+  border-radius: 6px;
+  color: #45673b;
+  font-size: 10px;
+  line-height: 1.7;
+}
+.map-open-link > svg:last-child {
+  margin-left: auto;
+}
+.public-church-card .church-direction {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10px;
+  color: #3e6935;
+}
+.footer-address {
+  display: block;
+  font-size: 9px;
+  line-height: 1.8;
+  color: #657e52;
+  max-width: 265px;
+  margin-top: 7px;
+}
+.church-location-link {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  color: #3b6734;
+  font-size: 11px;
+  margin-top: 8px;
+}
+html[lang="ta"] .public-hero h1 {
+  color: #f4f8eb;
+}
+html[lang="ta"] .public-hero h1 em {
+  color: #bfd0a9;
+}
+html[lang="ta"] .public-hero-copy > p {
+  color: #cfddbc;
+}
+html[lang="ta"] .public-hero .public-eyebrow {
+  color: #b8cba4;
+}
+html[lang="ta"] .public-hero .public-no-login {
+  color: #b8cda2;
+}
+html[lang="ta"] .location-copy h2 {
+  font-size: 22px;
+  line-height: 1.9;
+}
+html[lang="ta"] .location-copy > p,
+html[lang="ta"] .location-copy address p {
+  font-size: 11px;
+  line-height: 2;
+}
+html[lang="ta"] .location-copy address strong {
+  font-size: 11px;
+  line-height: 1.9;
+}
+html[lang="ta"] .location-actions .text-button {
+  font-size: 9px;
+}
+html[lang="ta"] .map-open-link {
+  font-size: 8px;
+}
+html[lang="ta"] .footer-address {
+  font-size: 8px;
+  line-height: 2;
+}
+@media (max-width: 1050px) {
+  .public-hero {
+    padding: 35px 28px;
+    gap: 25px;
+  }
+  .public-hero h1 {
+    font-size: 32px;
+  }
+  .public-hero-art {
+    min-height: 300px;
+  }
+  .public-hero-copy > p {
+    font-size: 11px;
+  }
+  .public-hero .public-eyebrow {
+    font-size: 7px;
+    letter-spacing: 1px;
+  }
+  .public-hero-actions .button {
+    font-size: 10px;
+    padding: 12px;
+  }
+  .location-section {
+    gap: 27px;
+    padding: 28px;
+  }
+  .location-copy h2 {
+    font-size: 22px;
+  }
+  .location-copy address p {
+    font-size: 11px;
+  }
+  .location-map iframe {
+    min-height: 320px;
+  }
+}
+@media (max-width: 650px) {
+  .public-hero {
+    padding: 28px 23px 23px;
+    margin-top: 20px;
+    gap: 29px;
+    border-radius: 12px;
+  }
+  .public-hero h1 {
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: -1.2px;
+  }
+  .public-hero-copy > p {
+    font-size: 12px;
+    line-height: 1.95;
+  }
+  .public-hero .public-eyebrow {
+    font-size: 6.8px;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+    line-height: 1.9;
+  }
+  .public-hero-actions {
+    gap: 9px;
+  }
+  .public-hero-actions .button {
+    font-size: 11px;
+    min-height: 46px;
+    padding: 11px 13px;
+  }
+  .public-hero-art {
+    min-height: 0;
+    height: 248px;
+    border-radius: 110px 110px 9px 9px;
+    width: 100%;
+    padding-bottom: 14px;
+  }
+  .public-hero-art > .church-art {
+    width: 94%;
+  }
+  .public-hero .hero-art-label {
+    top: 22px;
+    gap: 8px;
+  }
+  .public-hero .hero-art-label > span {
+    font-size: 4.8px;
+  }
+  .public-art-caption {
+    gap: 7px;
+  }
+  .public-art-caption > p {
+    font-size: 8px;
+  }
+  .public-art-caption > span {
+    width: 18px;
+  }
+  .public-welcome-intro {
+    margin-top: 29px;
+  }
+  .public-main {
+    padding-bottom: 28px;
+  }
+  .location-section {
+    grid-template-columns: 1fr;
+    padding: 24px 20px;
+    gap: 25px;
+    margin-top: 29px;
+  }
+  .location-copy h2 {
+    font-size: 24px;
+    line-height: 1.6;
+  }
+  .location-copy > p {
+    font-size: 12px;
+    line-height: 1.9;
+  }
+  .location-copy address strong {
+    font-size: 12px;
+  }
+  .location-copy address p {
+    font-size: 12px;
+    line-height: 1.9;
+  }
+  .location-actions {
+    gap: 14px;
+  }
+  .location-actions .button {
+    font-size: 11px;
+    min-height: 46px;
+  }
+  .location-actions .text-button {
+    font-size: 10px;
+    min-height: 44px;
+  }
+  .location-map,
+  .location-map iframe {
+    min-height: 260px;
+    height: 260px;
+  }
+  .map-open-link {
+    font-size: 9px;
+    padding: 10px;
+  }
+  .footer-address {
+    max-width: 220px;
+    font-size: 8px;
+  }
+  .public-footer {
+    align-items: flex-start;
+  }
+  .public-church-card .church-direction {
+    font-size: 9px;
+    line-height: 1.8;
+    min-height: 38px;
+  }
+  html[lang="ta"] .public-hero h1 {
+    font-size: 25px;
+    line-height: 1.85;
+  }
+  html[lang="ta"] .public-hero .public-eyebrow {
+    font-size: 6.8px;
+    letter-spacing: 0.2px;
+    line-height: 1.95;
+  }
+  html[lang="ta"] .public-hero-copy > p {
+    font-size: 11px;
+    line-height: 2.2;
+  }
+  html[lang="ta"] .public-hero-actions .button {
+    font-size: 9px;
+    line-height: 2;
+    min-height: 47px;
+  }
+  html[lang="ta"] .public-hero .public-no-login {
+    font-size: 8px;
+    line-height: 2;
+  }
+  html[lang="ta"] .public-art-caption > p {
+    font-size: 7px;
+  }
+  html[lang="ta"] .location-copy h2 {
+    font-size: 21px;
+    line-height: 1.9;
+  }
+  html[lang="ta"] .location-copy > p,
+  html[lang="ta"] .location-copy address p {
+    font-size: 11px;
+    line-height: 2.1;
+  }
+  html[lang="ta"] .location-copy address strong {
+    font-size: 11px;
+    line-height: 2;
+  }
+  html[lang="ta"] .location-actions .button {
+    font-size: 10px;
+    line-height: 1.8;
+  }
+  html[lang="ta"] .public-church-card .church-direction {
+    font-size: 8px;
+    line-height: 1.9;
+  }
+  html[lang="ta"] .footer-address {
+    font-size: 7px;
+    line-height: 2.1;
+  }
+}
+@media (max-width: 380px) {
+  .public-hero {
+    padding: 26px 20px 20px;
+  }
+  .public-hero h1 {
+    font-size: 28px;
+  }
+  .public-hero .public-eyebrow {
+    font-size: 6px;
+  }
+  .public-hero-art {
+    height: 232px;
+  }
+  .public-hero-actions .button {
+    font-size: 10px;
+  }
+  html[lang="ta"] .public-hero h1 {
+    font-size: 23px;
+  }
+  html[lang="ta"] .public-hero .public-eyebrow {
+    font-size: 6px;
+  }
+  .public-art-caption > span {
+    width: 14px;
+  }
+  html[lang="ta"] .public-hero-actions .button {
+    font-size: 8.5px;
+  }
+}
